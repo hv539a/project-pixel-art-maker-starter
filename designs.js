@@ -37,7 +37,8 @@ function makeGrid(x, y) {
             $(this).attr('style', 'background-color:' + color);
         } 
     }) 
-        
+     
+}
  
         
         
