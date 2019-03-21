@@ -6,7 +6,7 @@ var height, width, color;
 $('#sizePicker').submit(function (event) {
     event.preventDefault();
     height = $('#inputHeight').val();
-    width = $('#inputHeight').val();
+    width = $('#inputWidth').val();
     makeGrid(height,width);
     // console.log('Height: ' + height + ' and width: ' + width);
 })
@@ -20,7 +20,7 @@ function makeGrid(x, y) {
      $('tr').remove();
  
 
-// Your code goes here!
+
      for (var i = 1; i <= x; i++) {
          $('#pixelCanvas').append('<tr id=table' +i + '></tr>');
          for (var j = 1; j <=y; j++) {
